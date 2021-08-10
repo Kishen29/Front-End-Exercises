@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html" autocomplete="off" method="GET"> 
+        <div>
+            <fieldset>
+                <legend>Basic Details</legend>
+                <label name="uname">Username : </label><br>
+                <input type="text" id="fname" name="uname"><br>
+                <label name="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label name="pass">Password: </label><br>
+                <input type="password" id="pass" name="pass"><br>
+            </fieldset>
+            <br><br>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Additional Details 1</legend>
+                <p>Choose your favourite character from Game of Thrones</p>
+                <input type="radio" id="js" name="Fav_char" value="Jon Snow">
+                <label for="js">Jon Snow</label><br>
+                <input type="radio" id="dt" name="Fav_char" value="Dany">
+                <label for="dt">Daenerys Targaryen</label><br>
+                <input type="radio" id="jl" name="Fav_char" value="Jaime">
+                <label for="jl">Jaime Lannister</label><br>
+                <input type="radio" id="tl" name="Fav_char" value="Tyrion">
+                <label for="tl">Tyrion Lannister</label><br>
+            </fieldset>
+            <br><br>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Additional Details 1</legend>
+                <p>Choose your favourite web series</p>
+                <input type="checkbox" id="got" name="ws1" value="GameofThrones">
+                <label for="got">Game of Thrones</label><br>
+                <input type="checkbox" id="pb" name="ws2" value="PeakyBlinders">
+                <label for="pb">Peaky Blinders</label><br>
+                <input type="checkbox" id="brba" name="ws3" value="BreakingBad">
+                <label for="brba" id="">Breaking Bad</label><br><br>
+            </fieldset>
+            <br><br>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <div>
+            <input type="date">
+        </div>
+        <div>
+            <label for="stones">Choose an infinity stone</label>
+            <select id="stones" name="stones">
+                <option value="Power">Power</option>
+                <option value="Space">Space</option>
+                <option value="Time">Time</option>
+                <option value="Mind">Mind</option>
+                <option value="Reality">Reality</option>
+                <option value="Soul">Soul</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="address" style="width: 100px;height: 100px;">
+
+            </textarea>
+        </div>
+        <div>
+            <button type="button" onclick="alert('Yo watsup')">Click Me</button>
+            <input type="color">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <input type="number">
+        </div>
+    </form>
+</body>
+</html>
